@@ -1,0 +1,14 @@
+# First Convert the picture in in.pgm/in.ppm
+
+convert highres.jpg in.pgm
+convert highres.jpg in.ppm
+
+# For Compilation
+
+make
+
+# For Execution of Sequential Code
+
+make run
+
+# To see the converted picture convert it back to .jpg using convert command

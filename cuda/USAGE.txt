@@ -1,0 +1,14 @@
+# First Convert the picture in in.pgm/in.ppm
+
+convert highres.jpg in.pgm
+convert highres.jpg in.ppm
+
+# For Compilation make
+
+make
+
+# For Execution CUDA
+
+make run
+
+# Compare the execution time with the sequential code
